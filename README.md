@@ -1,7 +1,7 @@
 #Useless_Box
 Project Useless Box
 
-
+Design sample project - useless box
 
 
 
