@@ -1,7 +1,7 @@
-Useless Box
+﻿Useless Box
 
-A useless box is basically a machine which turns itself off. However, with a few additional servos, and a little programming, you're able to blow some live into it and give it some "character" - as well as adding a few surprises for the user...
-TL;DR
+A useless box is basically a machine which turns itself off. However, with a few additional servos, and a little programming... 
+
 
 
 A demo video of the box. Because of randomization the video doesn't include all different behavior patterns - there are more...
@@ -10,12 +10,9 @@ A demo video of the box. Because of randomization the video doesn't include all 
 Features / Surprises
 
     Control the door and "hand" separately
-    Detect the operator by using a distance sensor
-    Wave a white flag
-    Hop away
-    Ambient light
+    
+I utilized the MotorShield is clearly overkill for this project it reduces the complexity of the required electronics knowledge (and soldering) quite a bit.
 
-I've used software debouncing of the switch because it's much easier than including additional wiring and parts. Although the MotorShield is clearly overkill for this project it reduces the complexity of the required electronics knowledge (and soldering) quite a bit.
 Hardware
 Electronics - Parts List
 
@@ -25,14 +22,10 @@ Amount 	Part Type 	Properties
 1 	MotorShield 	Rev3
 2 	Basic Servo 	You should use a high-torque servo for the arm
 1 	Micro Servo 	
-1 	Infrared Proximity Sensor Sharp GP2Y0A21YK0F 	10 - 80 cm
-1 	DC Motor 	geared
 1 	Metallic Toggle Switch 	
-1 	Plastic Power Switch 	
-1 	LIPO Battery 	11.1v 1200mAh
-1 	Resistor 	10kΩ Pull-down for switch
-2 	NeoPixel 	
-1 	5V UBEC DC-DC Converter 	UBEC 5A Dynam DY-1016-5A
+1	Power Supply
+2	Leds
+
 Circuit
 
 Circuit Diagram
@@ -40,24 +33,18 @@ Material
 
     Wooden box with enough space to fit everything into
     Some chipboard ~ 4mm to build the arm and mountings
-    Rubber band to force-close the lid
-    Hinges
     Cables
 
 Tools
 
     Solder
-    Jigsaw
-    Sanding paper
-    Wood glue
+    screwdriver
+
 
 Operation
 
 My useless box fulfills of course the basic functionality of turning itself off. But using a few additional pieces of equipment it can:
 
-    "Hop" away
-    Detect the users distance (and react to it)
-    Wave a white flag - but without giving up of course :)
 
 Software
 
