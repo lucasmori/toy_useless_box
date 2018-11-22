@@ -6,13 +6,17 @@ A demo video of the box. Because of randomization the video doesn't include all 
 
 
 Features / Surprises
+
 Control the door and "hand" separately
+
+
 
 I utilized the MotorShield is clearly overkill for this project it reduces the complexity of the required electronics knowledge (and soldering) quite a bit.
 
+
+
 Hardware
 Electronics - Parts List
-
 The following parts were used:
 Amount 	Part Type 	Properties
 1 	Arduino Uno 	
@@ -23,9 +27,7 @@ Amount 	Part Type 	Properties
 1	Power Supply
 2	Leds
 
-Circuit
 
-Circuit Diagram
 
 Material
 
@@ -33,13 +35,19 @@ Wooden box with enough space to fit everything into
 Some chipboard ~ 4mm to build the arm and mountings
 Cables
 
+
+
 Tools
+
 Solder
 screwdriver
+
+
 
 Operation
 
 My useless box fulfills of course the basic functionality of turning itself off. But using a few additional pieces of equipment it can:
+
 
 
 Software
