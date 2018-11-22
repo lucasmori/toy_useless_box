@@ -2,15 +2,12 @@
 
 A useless box is basically a machine which turns itself off. However, with a few additional servos, and a little programming... 
 
-
-
 A demo video of the box. Because of randomization the video doesn't include all different behavior patterns - there are more...
 
 
 Features / Surprises
+Control the door and "hand" separately
 
-    Control the door and "hand" separately
-    
 I utilized the MotorShield is clearly overkill for this project it reduces the complexity of the required electronics knowledge (and soldering) quite a bit.
 
 Hardware
@@ -29,17 +26,16 @@ Amount 	Part Type 	Properties
 Circuit
 
 Circuit Diagram
+
 Material
 
-    Wooden box with enough space to fit everything into
-    Some chipboard ~ 4mm to build the arm and mountings
-    Cables
+Wooden box with enough space to fit everything into
+Some chipboard ~ 4mm to build the arm and mountings
+Cables
 
 Tools
-
-    Solder
-    screwdriver
-
+Solder
+screwdriver
 
 Operation
 
