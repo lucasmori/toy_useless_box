@@ -3,9 +3,10 @@ Useless Box
 A useless box is basically a machine which turns itself off. However, with a few additional servos, and a little programming, you're able to blow some live into it and give it some "character" - as well as adding a few surprises for the user...
 TL;DR
 
+
 A demo video of the box. Because of randomization the video doesn't include all different behavior patterns - there are more...
 
-[Demo Video](https://www.youtube.com/watch?v=xstKcBLtHTI
+
 Features / Surprises
 
     Control the door and "hand" separately
