@@ -4,6 +4,7 @@ A useless box is basically a machine which turns itself off. However, with a few
 
 A demo video of the box. Because of randomization the video doesn't include all different behavior patterns - there are more...
 
+https://www.youtube.com/watch?v=cCtrusTWms4
 
 Features / Surprises
 
