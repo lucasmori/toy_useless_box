@@ -1,7 +1,7 @@
 /********************HEADER********************
-    PROJECT: Useless Box
+    PROJECT: Useless Box Machine
     AUTHOR: Lucas E. Mori
-    COURSE: CONTROL AND AUTOMATION ENGINEERING
+    COURSE: |COMPUTER ENGINEERING
     LATEST MODIFICATION: 02/11/2018
 ***********************************************/
 
@@ -32,7 +32,14 @@ int tb = 0;
 long randNumber;
 int lotado = 0;
 
-//--------------------basic--move--------------------
+void simpleClose();
+void simpleClose2();
+void crazydoor();
+void slow();
+void serious();
+
+
+
 void simpleClose()
 {
   //Moving door abrindo
@@ -60,9 +67,6 @@ void simpleClose()
     delay(15);
   }
 }
-//----------------------------------------------------
-
-//open and wait, then move finger and wait, then switch of and hide
 void simpleClose2()
 {
   //Moving door
@@ -98,9 +102,6 @@ void simpleClose2()
     delay(15);
   }
 }
-//----------------------------------------
-
-//open door then close it many times, wait, then quickly reopen, switch off and hide.
 void crazydoor()
 {
   //Moving door
@@ -166,9 +167,6 @@ void crazydoor()
     delay(15);
   }
 }
-
-
-//open door,move finger very slowly forward and back to hiding very slowly, then quickly close door
 void slow()
 {
   //Moving door
@@ -196,11 +194,8 @@ void slow()
     delay(30);
   }
 }
-//----------------------------------------
-
-//--------------------serious--------------------
-void serious() {
-
+void serious()
+ {
   //Moving door
   for (posC = coverSc; posC >= coverSo; posC -= 3)
   {
@@ -251,7 +246,7 @@ void serious() {
     delay(15);
   }
 }
-//----------------------------------------
+
 void setup()
 {
   pinMode(blueLed, OUTPUT);
